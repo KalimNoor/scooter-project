@@ -15,7 +15,16 @@ describe('scooter methods', () => {
   // tests here!
 
   //rent method
+  test('This is testing the rent method', () => {
+    
+    //setup 
+    const expectedValue = "Enjoy the ride"
 
+    //act
+    const
+
+
+  });
   //dock method
 
   //requestRepair method

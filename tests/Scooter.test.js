@@ -10,25 +10,37 @@ describe('scooter object', () => {
 )
 })
 
+
+// //async
+// describe('scooter methods', () => {
+
+//   test("charge", async() => {
+    
+//     const scooter = new Scooter ();
+//     await scooter.charge(); 
+//     expect (newScooter.charge).toBe(100);
+
+//   })
+// })
+
+
 //Method tests
 describe('scooter methods', () => {
+
   // tests here!
 
   //rent method
-  test('This is testing the rent method', () => {
-    
-    //setup 
-    const expectedValue = "Enjoy the ride"
 
-    //act
-    const
-
-
-  });
   //dock method
 
   //requestRepair method
 
   //charge method
+  test("charge", async () => {
+    let newScooter = new Scooter ("London", "user")
+    const scooter = new Scooter();
+    await scooter.recharge();
+    expect(newScooter.recharge).toBe(100)
+  })
 
 })
